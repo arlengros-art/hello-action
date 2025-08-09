@@ -1,0 +1,7 @@
+name: 'Hello Action'
+description: 'A GitHub Action to greet new contributors'
+runs:
+  using: 'composite'
+  steps:
+    - name: Greet user
+      run: echo "Hello, thanks for contributing!"
